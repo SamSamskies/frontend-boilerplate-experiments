@@ -1,0 +1,19 @@
+{
+  "name": "frontend-boilerplate-experiments",
+  "version": "1.0.0",
+  "description": "See different branches for different boilerplate setups for React with bundling, testing, linting, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamSamskies/frontend-boilerplate-experiments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamSamskies/frontend-boilerplate-experiments/issues"
+  },
+  "homepage": "https://github.com/SamSamskies/frontend-boilerplate-experiments#readme"
+}
