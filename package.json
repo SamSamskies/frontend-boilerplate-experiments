@@ -1,8 +1,8 @@
 {
-  "name": "redux-webpack-es6-boilerplate",
+  "name": "frontend-boilerplate-experiments",
   "description": "A starter project for modern React apps with Redux",
-  "version": "0.7.1",
-  "author": "Nick S. Plekhanov <nick.plekhanov@gmail.com>",
+  "version": "0.1.0",
+  "author": "Sam Samskies <samprofessional@gmail.com>",
   "license": "MIT",
   "keywords": [
     "react",
@@ -17,9 +17,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nicksp/redux-webpack-es6-boilerplate.git"
+    "url": "https://github.com/SamSamskies/frontend-boilerplate-experiments"
   },
-  "bugs": "https://github.com/nicksp/redux-webpack-es6-boilerplate/issues",
+  "bugs": "https://github.com/SamSamskies/frontend-boilerplate-experiments/issues",
   "scripts": {
     "clean:build": "node ./bin/clean.js createdir",
     "build:html": "node ./bin/buildHtml.js",
