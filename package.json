@@ -28,7 +28,6 @@
     "prebuild": "npm run clean:build && npm run build:html",
     "build": "SET NODE_ENV=production& NODE_ENV=production& webpack -p --config ./config/webpack.config.prod.js --progress",
     "lint": "eslint config src/js/** --ext .js",
-    "jscs": "jscs src/js/",
     "test": "mocha --compilers js:babel-core/register,css:./test/unit/cssNullCompiler.js --recursive ./test/unit",
     "test:watch": "npm run test -- --watch",
     "cover": "istanbul cover _mocha -- --compilers js:babel-core/register,css:./test/unit/cssNullCompiler.js --recursive ./test/unit"
@@ -51,7 +50,6 @@
     "extract-text-webpack-plugin": "1.0.1",
     "file-loader": "0.8.5",
     "istanbul": "1.0.0-alpha.2",
-    "jscs": "2.10.1",
     "mocha": "2.4.5",
     "node-sass": "3.6.0",
     "postcss-loader": "0.8.2",
