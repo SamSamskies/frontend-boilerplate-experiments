@@ -1,6 +1,12 @@
 import { expect } from 'chai';
-import * as types from '../../../src/js/constants/ActionTypes';
-import { addFriend, deleteFriend, starFriend } from '../../../src/js/actions/FriendsActions';
+import {
+  ADD_FRIEND,
+  DELETE_FRIEND,
+  STAR_FRIEND,
+  addFriend,
+  deleteFriend,
+  starFriend
+} from '../../../src/js/reducers/friendList';
 
 describe('Actions', () => {
 
@@ -8,7 +14,7 @@ describe('Actions', () => {
 
     it('has the correct type', () => {
       const action = addFriend();
-      expect(action.type).to.equal(types.ADD_FRIEND);
+      expect(action.type).to.equal(ADD_FRIEND);
     });
 
     it('has the correct payload', () => {
@@ -21,7 +27,7 @@ describe('Actions', () => {
 
     it('has the correct type', () => {
       const action = deleteFriend();
-      expect(action.type).to.equal(types.DELETE_FRIEND);
+      expect(action.type).to.equal(DELETE_FRIEND);
     });
 
     it('has the correct payload', () => {
@@ -34,7 +40,7 @@ describe('Actions', () => {
 
     it('has the correct type', () => {
       const action = starFriend();
-      expect(action.type).to.equal(types.STAR_FRIEND);
+      expect(action.type).to.equal(STAR_FRIEND);
     });
 
     it('has the correct payload', () => {

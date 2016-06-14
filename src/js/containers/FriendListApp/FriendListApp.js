@@ -4,8 +4,12 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import * as FriendsActions from '../../actions/FriendsActions';
 import { AddFriendInput, FriendList } from '../../components';
+import {
+  addFriend,
+  deleteFriend,
+  starFriend
+} from '../../reducers/friendList';
 import { getFriendList } from '../../reducers';
 
 export class FriendListApp extends Component {
@@ -36,7 +40,7 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   return {
-    actions: bindActionCreators(FriendsActions, dispatch)
+    actions: bindActionCreators({ addFriend, deleteFriend, starFriend }, dispatch)
   };
 }
 
