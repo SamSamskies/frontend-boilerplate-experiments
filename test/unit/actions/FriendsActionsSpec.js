@@ -1,4 +1,4 @@
-import { expect } from '../testHelper';
+import { expect } from 'chai';
 import * as types from '../../../src/js/constants/ActionTypes';
 import { addFriend, deleteFriend, starFriend } from '../../../src/js/actions/FriendsActions';
 

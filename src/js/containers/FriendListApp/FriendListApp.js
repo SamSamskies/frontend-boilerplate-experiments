@@ -7,7 +7,7 @@ import { bindActionCreators } from 'redux';
 import * as FriendsActions from '../../actions/FriendsActions';
 import { AddFriendInput, FriendList } from '../../components';
 
-class FriendListApp extends Component {
+export class FriendListApp extends Component {
 
   static propTypes = {
     friendList: PropTypes.object.isRequired,
