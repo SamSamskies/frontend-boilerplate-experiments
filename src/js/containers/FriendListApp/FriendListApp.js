@@ -6,6 +6,7 @@ import { bindActionCreators } from 'redux';
 
 import * as FriendsActions from '../../actions/FriendsActions';
 import { AddFriendInput, FriendList } from '../../components';
+import { getFriendList } from '../../reducers';
 
 export class FriendListApp extends Component {
 
@@ -29,7 +30,7 @@ export class FriendListApp extends Component {
 
 function mapStateToProps(state) {
   return {
-    friendList: state.friendList
+    friendList: getFriendList(state)
   };
 }
 

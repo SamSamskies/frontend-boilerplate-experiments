@@ -6,3 +6,8 @@ const rootReducer = combineReducers({
 });
 
 export default rootReducer;
+
+// Selectors
+export const getFriendList = (state) => {
+  return state.friendList;
+}
