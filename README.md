@@ -1,6 +1,6 @@
 # frontend-boilerplate-experiments
 
-Slightly modified version of redux-webpack-es6-boilerplate https://github.com/nicksp/redux-webpack-es6-boilerplate
+Modified version of redux-webpack-es6-boilerplate https://github.com/nicksp/redux-webpack-es6-boilerplate
 
 Modifications include:
 - Added Istanbul https://github.com/gotwarlost/istanbul
